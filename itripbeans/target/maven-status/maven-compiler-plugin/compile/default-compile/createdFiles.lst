@@ -1,6 +1,8 @@
 cn\itrip\pojo\ItripAreaDic.class
 cn\itrip\pojo\ItripHotelTradingArea.class
 cn\itrip\pojo\ItripHotelExtendProperty.class
+cn\itrip\pojo\ItripUserVO.class
+com\bdqn\text\FreeMarkerText.class
 cn\itrip\pojo\ItripHotelTempStore.class
 cn\itrip\pojo\ItripUser.class
 cn\itrip\pojo\ItripHotelOrder.class

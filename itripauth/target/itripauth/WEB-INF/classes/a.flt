@@ -1,9 +1,0 @@
-<html>
-<head></head>
-<body>
-     <#list li as i>
-     ${i.id}
-     ${i.name}
-     </#list>
-</body>
-</html>

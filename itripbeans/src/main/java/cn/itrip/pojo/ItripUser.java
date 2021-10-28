@@ -7,7 +7,7 @@ import java.util.Date;
 */
 public class ItripUser implements Serializable {
         //主键
-        private Long id;
+        private long id;
         //若是第三方登录，系统将自动生成唯一账号；自注册用户则为邮箱或者手机号
         private String userCode;
         //若是第三方登录，系统将自动生成唯一密码；自注册用户则为自定义密码
@@ -37,7 +37,7 @@ public class ItripUser implements Serializable {
         //是否激活,(0 false，1 true,默认是0)
         private Integer activated;
         //get set 方法
-            public void setId (Long  id){
+            public void setId (long id){
                 this.id=id;
             }
             public  Long getId(){

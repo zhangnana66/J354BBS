@@ -1,0 +1,14 @@
+127.0.0.1 - - [27/Oct/2021:17:00:27 +0800] "POST /biz/api/hotelorder/getpersonalorderlist HTTP/1.0" 404 949 http-bio-8082-exec-1 45
+127.0.0.1 - - [27/Oct/2021:17:00:27 +0800] "POST /biz/api/hotelorder/getpersonalorderlist HTTP/1.0" 404 949 http-bio-8082-exec-2 5
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:17:00:30 +0800] "POST /biz/api/hotelorder/getpersonalorderlist HTTP/1.0" 404 949 http-bio-8082-exec-3 4
+127.0.0.1 - - [27/Oct/2021:17:00:31 +0800] "POST /biz/api/hotelorder/getpersonalorderlist HTTP/1.0" 404 949 http-bio-8082-exec-4 4
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:17:00:33 +0800] "POST /biz/api/userinfo/queryuserlinkuser HTTP/1.0" 200 889 http-bio-8082-exec-5 366
+127.0.0.1 - - [27/Oct/2021:17:02:03 +0800] "POST /biz/api/userinfo/queryuserlinkuser HTTP/1.0" 200 889 http-bio-8082-exec-6 15
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:17:02:22 +0800] "GET /biz/api/hotel/queryhotelfeature HTTP/1.0" 200 2281 http-bio-8082-exec-9 18
+127.0.0.1 - - [27/Oct/2021:17:02:22 +0800] "GET /biz/api/hotel/queryhotcity/1 HTTP/1.0" 200 1234 http-bio-8082-exec-8 47
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:17:02:22 +0800] "GET /biz/api/hotel/queryhotcity/2 HTTP/1.0" 200 1198 http-bio-8082-exec-7 48
+127.0.0.1 - - [27/Oct/2021:17:40:32 +0800] "POST /biz/api/hotelorder/getpersonalorderlist HTTP/1.0" 404 949 http-bio-8082-exec-10 5
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:17:40:33 +0800] "POST /biz/api/hotelorder/getpersonalorderlist HTTP/1.0" 404 949 http-bio-8082-exec-1 5
+127.0.0.1 - - [27/Oct/2021:17:40:35 +0800] "GET /biz/api/hotel/queryhotcity/2 HTTP/1.0" 200 1198 http-bio-8082-exec-2 29
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:17:40:35 +0800] "GET /biz/api/hotel/queryhotcity/1 HTTP/1.0" 200 1234 http-bio-8082-exec-3 28
+127.0.0.1 - - [27/Oct/2021:17:40:35 +0800] "GET /biz/api/hotel/queryhotelfeature HTTP/1.0" 200 2281 http-bio-8082-exec-4 12

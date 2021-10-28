@@ -1,0 +1,2 @@
+127.0.0.1 - - [26/Oct/2021:16:59:41 +0800] "GET /biz/api/hotel/queryhotcity/2 HTTP/1.0" 200 1198 http-bio-8082-exec-1 236
+0:0:0:0:0:0:0:1 - - [26/Oct/2021:16:59:41 +0800] "GET /biz/api/hotel/queryhotcity/1 HTTP/1.0" 200 1234 http-bio-8082-exec-2 236

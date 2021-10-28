@@ -2,7 +2,16 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.itrip.dao.itripUser.ItripUserMapper">
+   <mapper namespace="cn.itrip.dao.itripUser.ItripUserMapper">
+    <!--登录功能-->
+    <select id="getLogin" resultType="cn.itrip.pojo.ItripUser">
+        select * from itrip_user where userCode=#{name}and userPassword=#{password}
+    </select>
+    <!--查询数据库是否存在这个手机号-->
+    <select id="phton" resultType="int">
+       SELECT count(1) FROM `itrip_user` WHERE userCode=#{code}
+    </select>
+
 
     <select id="getItripUserById" resultType="cn.itrip.pojo.ItripUser" >
         select
@@ -180,6 +189,25 @@
                      #{modifiedBy},
                     #{activated})
     </insert>
+    <!--添加数据到数据库-->
+    <insert id="registerbyphone" parameterType="cn.itrip.pojo.ItripUser">
+        insert into itrip_user(
+                        userCode,
+                        userPassword,
+                        userName,
+                        activated)
+        values(
+                     #{userCode},
+                     #{userPassword},
+                     #{userName},
+                     #{activated})
+    </insert>
+
+    <!--修改用户的状态码修改为激活成功-->
+    <update id="updateCode">
+        update itrip_user set activated=1 where userCode=#{userCode}
+    </update>
+
 
     <update id="updateItripUser" parameterType="cn.itrip.pojo.ItripUser">
         update itrip_user

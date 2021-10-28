@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface ItripLabelDicMapper {
+	public  List<ItripLabelDic> RecommendFacilities()throws Exception;
 
 	public ItripLabelDic getItripLabelDicById(@Param(value = "id") Long id)throws Exception;
 

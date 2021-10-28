@@ -4,6 +4,11 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.itrip.dao.itripUserLinkUser.ItripUserLinkUserMapper">
 
+    <select id="getUserList" resultType="cn.itrip.pojo.ItripUserLinkUser" >
+       SELECT * FROM `itrip_user_link_user`
+        where userId=#{id}
+    </select>
+
     <select id="getItripUserLinkUserById" resultType="cn.itrip.pojo.ItripUserLinkUser" >
         select
                 id as id,
@@ -165,6 +170,9 @@
                         linkIdCardType=#{linkIdCardType}
                     </if>
         </trim>
+    </update>
+    <update id="updateUser">
+        UPDATE itrip_user_link_user set linkUserName=#{linkUserName},linkPhone=#{linkPhone},linkIdCard=#{linkIdCard} WHERE id=#{id}
     </update>
 
     <delete id="deleteItripUserLinkUserById" parameterType="Long">

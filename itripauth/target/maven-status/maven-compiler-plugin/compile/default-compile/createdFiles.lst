@@ -1,1 +1,4 @@
+com\text.class
+com\pojo\User.class
+cn\itrip\biz\BizToken.class
 cn\itrip\controller\UserController.class

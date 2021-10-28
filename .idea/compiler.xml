@@ -18,6 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itripbiz" target="1.7" />
+      <module name="SpringBootDemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

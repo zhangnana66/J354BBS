@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Map;
 
 public interface ItripAreaDicMapper {
+	//热门酒店推荐国内国外
+	public List<ItripAreaDic> RecommendedHotel(@Param(value = "istype")String type)throws Exception;
 
 	public ItripAreaDic getItripAreaDicById(@Param(value = "id") Long id)throws Exception;
 

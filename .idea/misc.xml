@@ -6,11 +6,13 @@
     <file type="web" url="file://$PROJECT_DIR$/itripauth" />
     <file type="web" url="file://$PROJECT_DIR$/itripsearch" />
     <file type="web" url="file://$PROJECT_DIR$/itriptrade" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../idea_pojo/SpringBootDemo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
