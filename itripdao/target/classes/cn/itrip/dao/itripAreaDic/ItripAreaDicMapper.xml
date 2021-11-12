@@ -8,6 +8,11 @@
     <select id="RecommendedHotel" resultType="cn.itrip.pojo.ItripAreaDic" >
         SELECT * FROM `itrip_area_dic`WHERE isHot=1 AND isChina=#{istype}
     </select>
+    <!--查询热门城市的热门地方-->
+    <select id="Hotplace" resultType="cn.itrip.pojo.ItripAreaDicVO" >
+        SELECT * FROM `itrip_area_dic` where parent=#{pid}
+    </select>
+
 
     <select id="getItripAreaDicById" resultType="cn.itrip.pojo.ItripAreaDic" >
         select

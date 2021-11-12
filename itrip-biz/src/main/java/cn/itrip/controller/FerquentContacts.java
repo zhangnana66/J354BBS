@@ -3,10 +3,7 @@ package cn.itrip.controller;
 import cn.itrip.dao.itripAreaDic.ItripAreaDicMapper;
 import cn.itrip.dao.itripLabelDic.ItripLabelDicMapper;
 import cn.itrip.dao.itripUserLinkUser.ItripUserLinkUserMapper;
-import cn.itrip.pojo.ItripAreaDic;
-import cn.itrip.pojo.ItripLabelDic;
-import cn.itrip.pojo.ItripUser;
-import cn.itrip.pojo.ItripUserLinkUser;
+import cn.itrip.pojo.*;
 import common.Dto;
 import common.DtoUtil;
 import org.omg.CORBA.PUBLIC_MEMBER;
@@ -27,8 +24,8 @@ public class FerquentContacts {
     //查询常用用户的方法
     @RequestMapping(value="/userinfo/queryuserlinkuser",produces="application/json;charset=UTF-8")
     @ResponseBody
-    public Dto getpersonalorderlist(ItripUser user)throws Exception{
-        user.setId(new Long(29));
+    public Dto getpersonalorderlist(ItripUserLinkUser user)throws Exception{
+        user.setUserId(29);
        List<ItripUser> list=linkUser.getUserList(user);
         return  DtoUtil.returnDataSuccess(list);
     }
@@ -62,6 +59,13 @@ public class FerquentContacts {
     @ResponseBody
     public Dto queryhotelfeature()throws Exception{
         List<ItripLabelDic>list=labelDicMapper.RecommendFacilities();
+        return DtoUtil.returnDataSuccess(list);
+    }
+    //热门城市的热门地方查询
+    @RequestMapping(value = "/hotel/querytradearea/{pid}",produces = "application/json;charset=UTF-8")
+    @ResponseBody
+    public Dto<ItripAreaDicVO>getHotplace(@PathVariable("pid") String pid) throws Exception {
+        List<ItripAreaDicVO>list=areaDicMapper.Hotplace(pid);
         return DtoUtil.returnDataSuccess(list);
     }
 }

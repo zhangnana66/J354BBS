@@ -5,9 +5,12 @@ cn\itrip\pojo\ItripUserVO.class
 com\bdqn\text\FreeMarkerText.class
 cn\itrip\pojo\ItripHotelTempStore.class
 cn\itrip\pojo\ItripUser.class
+cn\itrip\pojo\Useradnfr.class
 cn\itrip\pojo\ItripHotelOrder.class
 cn\itrip\pojo\ItripLabelDic.class
+cn\itrip\pojo\ItripAreaDicVO.class
 cn\itrip\pojo\ItripHotelRoom.class
+cn\itrip\pojo\Functionr.class
 cn\itrip\pojo\ItripProductStore.class
 cn\itrip\pojo\ItripImage.class
 cn\itrip\pojo\ItripTradeEnds.class

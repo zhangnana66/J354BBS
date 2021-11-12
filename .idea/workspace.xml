@@ -2,152 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67923cd0-2242-46c2-a38f-6ae54b17337a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/FerquentContacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itrip-biz/src/main/resources/SpringMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itrip-biz/src/main/resources/SpringMybatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itrip-biz/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/biz/BizToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/biz/CloopenBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/biz/MailSenderInfoBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itripauth/src/main/resources/Mybatisconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itripauth/src/main/resources/SpringMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itripauth/src/main/resources/SpringMybatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripUserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/common/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/common/Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/common/DtoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/common/ItripTokenVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/common/JredisApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/common/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/common/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/common/UserAgentUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itriputils/src/main/java/util/RedisHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/common/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/common/Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/common/DtoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/common/ItripTokenVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/common/JredisApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/common/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/common/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/common/UserAgentUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/java.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/util/RedisHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/src/main/java/cn/itrip/dao/TestHote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/src/main/java/cn/itrip/pojo/ItripHotelVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/Functionr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripAreaDicVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/Useradnfr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/java/biz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/java/cn/itrip/biz/BasheDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/java/cn/itrip/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/java/pojo/ItripHotelVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/java/pojo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/java/pojo/SearchHotCityVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/java/pojo/SearchHotelVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/resources/Mybatisconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/resources/SpringMybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itripsearch/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/FerquentContacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/FerquentContacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itrip-biz/target/classes/cn/itrip/controller/FerquentContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/target/classes/cn/itrip/controller/FerquentContacts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz.war" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/target/itrip-biz.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/fastjson-1.2.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/classes/cn/itrip/controller/FerquentContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/classes/cn/itrip/controller/FerquentContacts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/itripbeans-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/itripbeans-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/itripdao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/itripdao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/itriputils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/itriputils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/jackson-annotations-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/target/itrip-biz/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/tomcat/logs/access_log.2021-09-27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/tomcat/work/Tomcat/localhost/biz/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itrip-biz/target/tomcat/work/Tomcat/localhost/biz/org/apache/jsp/index_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/itripauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/src/main/java/cn/itrip/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/src/main/resources/SpringMVCConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/src/main/resources/SpringMyBaits.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/src/main/resources/conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itrip-biz/src/main/resources/Mybatisconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/classes/SpringMVCConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/classes/SpringMVCConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/classes/SpringMyBaits.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/classes/a.flt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/classes/b.flt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/classes/cn/itrip/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/classes/cn/itrip/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/classes/conf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripauth/target/classes/cn/itrip/biz/MailSenderInfoBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/classes/cn/itrip/biz/MailSenderInfoBiz.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth.war" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/SpringMVCConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/SpringMVCConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/SpringMyBaits.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/a.flt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/b.flt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/cn/itrip/biz/MailSenderInfoBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/cn/itrip/biz/MailSenderInfoBiz.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/cn/itrip/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/cn/itrip/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/conf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/fastjson-1.2.31.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/itripbeans-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/itripbeans-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/itripdao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/itripdao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/itriputils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/itriputils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/jackson-annotations-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/itripauth/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itripauth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/tomcat/logs/access_log.2021-09-27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/tomcat/logs/access_log.2021-10-12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/tomcat/logs/access_log.2021-10-13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/tomcat/work/Tomcat/localhost/auth/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripauth/target/tomcat/work/Tomcat/localhost/auth/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripAreaDic.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripAreaDic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelExtendProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelExtendProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelTempStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelTempStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelTradingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripHotelTradingArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripLabelDic.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripLabelDic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripOrderLinkUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripOrderLinkUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripProductStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripProductStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripTradeEnds.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripTradeEnds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripUserLinkUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo/ItripUserLinkUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripAreaDic.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripAreaDic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelExtendProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelExtendProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelTempStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelTempStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelTradingArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripHotelTradingArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripLabelDic.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripLabelDic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripOrderLinkUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripOrderLinkUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripProductStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripProductStore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripUserLinkUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/classes/cn/itrip/pojo/ItripUserLinkUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripbeans/target/itripbeans-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/itripbeans-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripbeans/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripbeans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripbeans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itripbeans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripAreaDic/ItripAreaDicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripAreaDic/ItripAreaDicMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripAreaDic/ItripAreaDicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripAreaDic/ItripAreaDicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripLabelDic/ItripLabelDicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripLabelDic/ItripLabelDicMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripLabelDic/ItripLabelDicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripLabelDic/ItripLabelDicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripUser/ItripUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripUser/ItripUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripUser/ItripUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripUser/ItripUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripUserLinkUser/ItripUserLinkUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripUserLinkUser/ItripUserLinkUserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripUserLinkUser/ItripUserLinkUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/src/main/java/cn/itrip/dao/itripUserLinkUser/ItripUserLinkUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripAreaDic/ItripAreaDicMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripAreaDic/ItripAreaDicMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripAreaDic/ItripAreaDicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripAreaDic/ItripAreaDicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripLabelDic/ItripLabelDicMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripLabelDic/ItripLabelDicMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripLabelDic/ItripLabelDicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripLabelDic/ItripLabelDicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripUser/ItripUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripUser/ItripUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripUser/ItripUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripUser/ItripUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripUserLinkUser/ItripUserLinkUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripUserLinkUser/ItripUserLinkUserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripUserLinkUser/ItripUserLinkUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/classes/cn/itrip/dao/itripUserLinkUser/ItripUserLinkUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripdao/target/itripdao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/itripdao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripdao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itripdao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripsearch/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripsearch/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itripsearch/target/itripsearch.war" beforeDir="false" afterPath="$PROJECT_DIR$/itripsearch/target/itripsearch.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/lib/fastjson-1.2.31.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/lib/itripbeans-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/lib/itripbeans-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/lib/itriputils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/lib/itriputils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/lib/jackson-annotations-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/tomcat/logs/access_log.2021-09-27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/tomcat/work/Tomcat/localhost/search/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itripsearch/target/tomcat/work/Tomcat/localhost/search/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itripsearch/target/itripsearch/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itriptrade/target/itriptrade.war" beforeDir="false" afterPath="$PROJECT_DIR$/itriptrade/target/itriptrade.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/fastjson-1.2.31.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/itripbeans-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/itripbeans-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/itripdao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/itripdao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/itriputils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/itriputils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/jackson-annotations-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/itriptrade/WEB-INF/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/tomcat/logs/access_log.2021-09-27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/tomcat/work/Tomcat/localhost/trade/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriptrade/target/tomcat/work/Tomcat/localhost/trade/org/apache/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriputils/target/itriputils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itriputils/target/itriputils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriputils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itriputils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itriputils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/itriputils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/itripbackend-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,18 +128,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1yhd6xZDezmw19hmjEKD0pc3UO3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/itripbeans/src/main/java/cn/itrip/pojo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/itripbeans/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -217,14 +157,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\idea\itripbackend\itripbeans\src\main\java\cn\itrip\pojo" />
-      <recent name="D:\study\idea\itripbackend\itrip-biz\src\main\resources" />
-      <recent name="D:\study\idea\itripbackend\itripauth\src\main\resources" />
-      <recent name="D:\study\idea\itripbackend\itriputils\src\main\java" />
-      <recent name="D:\study\idea\itripbackend\src\main\java" />
+      <recent name="D:\study\idea\itripbackend\itripbeans\src\main\java" />
+      <recent name="D:\study\idea\itripbackend\itripsearch\src\main\java\pojo" />
+      <recent name="D:\study\idea\itripbackend\itripsearch\src\main\resources" />
+      <recent name="D:\study\idea\itripbackend\itripsearch\src\main\java" />
+      <recent name="D:\study\idea\itripbackend\Search\src\main\java\cn\itrip\pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.itrip-biz-8082">
+  <component name="RunManager" selected="Maven.itripsearch-8083">
     <configuration name="CloopenBiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itrip.biz.CloopenBiz" />
       <module name="itripauth" />
@@ -251,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisHelp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.RedisHelp" />
-      <module name="itriputils" />
+    <configuration name="TEXT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itrip.controller.TEXT" />
+      <module name="itrip-biz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="cn.itrip.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,22 +204,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="itripbackend" />
+    <configuration name="TestHote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itrip.dao.TestHote" />
+      <module name="Search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itrip.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.text" />
-      <module name="itripauth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="All in SolrApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SolrApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -385,11 +326,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.text" />
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.RedisHelp" />
       <item itemvalue="Application.CloopenBiz" />
       <item itemvalue="Application.MailSenderInfoBiz" />
+      <item itemvalue="Application.TEXT" />
+      <item itemvalue="Application.TestHote" />
+      <item itemvalue="JUnit.All in SolrApp" />
       <item itemvalue="Maven.itripauth-8081" />
       <item itemvalue="Maven.itrip-biz-8082" />
       <item itemvalue="Maven.itripsearch-8083" />
@@ -397,11 +338,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHote" />
+        <item itemvalue="JUnit.All in SolrApp" />
+        <item itemvalue="Application.TEXT" />
         <item itemvalue="Application.MailSenderInfoBiz" />
         <item itemvalue="Application.CloopenBiz" />
-        <item itemvalue="Application.RedisHelp" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.text" />
       </list>
     </recent_temporary>
   </component>
@@ -457,12 +398,34 @@
       <workItem from="1635249248974" duration="615000" />
       <workItem from="1635299850229" duration="3361000" />
       <workItem from="1635320706883" duration="2874000" />
-      <workItem from="1635391117573" duration="813000" />
+      <workItem from="1635391117573" duration="2689000" />
+      <workItem from="1635394312169" duration="7000000" />
+      <workItem from="1635467552638" duration="1938000" />
+      <workItem from="1635643091111" duration="2321000" />
+      <workItem from="1635726885520" duration="1308000" />
+      <workItem from="1635839087401" duration="777000" />
+      <workItem from="1635928300716" duration="2194000" />
+      <workItem from="1636019406497" duration="56000" />
+      <workItem from="1636023592964" duration="1917000" />
+      <workItem from="1636073999911" duration="1520000" />
+      <workItem from="1636092910237" duration="1519000" />
+      <workItem from="1636097616347" duration="639000" />
+      <workItem from="1636098280044" duration="2638000" />
+      <workItem from="1636334574692" duration="4695000" />
+      <workItem from="1636437529261" duration="132000" />
+      <workItem from="1636437677390" duration="4045000" />
+      <workItem from="1636443924049" duration="5067000" />
+      <workItem from="1636617012137" duration="395000" />
+      <workItem from="1636676888748" duration="6579000" />
+      <workItem from="1636687768325" duration="1120000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Inspections" timestamp="1634988996585">
@@ -477,10 +440,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1634903875714" />
-    <state x="197" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635045106536">
+    <state x="197" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636687797898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="197" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1635045106536" />
+    <state x="197" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1636687797898" />
     <state x="521" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634987298529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -489,10 +452,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1633919757114" />
-    <state x="385" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1635042870396">
+    <state x="385" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1636335417728">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1635042870396" />
+    <state x="385" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1636335417728" />
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635060495009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -505,22 +468,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635219769702" />
-    <state width="1493" height="269" key="GridCell.Tab.0.bottom" timestamp="1635329334108">
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom" timestamp="1636690111096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635329334108" />
-    <state width="1493" height="269" key="GridCell.Tab.0.center" timestamp="1635329334108">
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636690111096" />
+    <state width="1493" height="137" key="GridCell.Tab.0.center" timestamp="1636690111096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635329334108" />
-    <state width="1493" height="269" key="GridCell.Tab.0.left" timestamp="1635329334108">
+    <state width="1493" height="137" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636690111096" />
+    <state width="1493" height="137" key="GridCell.Tab.0.left" timestamp="1636690111095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635329334108" />
-    <state width="1493" height="269" key="GridCell.Tab.0.right" timestamp="1635329334108">
+    <state width="1493" height="137" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636690111095" />
+    <state width="1493" height="137" key="GridCell.Tab.0.right" timestamp="1636690111096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635329334108" />
+    <state width="1493" height="137" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636690111096" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1636097802782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636097802782" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1636097802782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1636097802782" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1636097802782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1636097802782" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1636097802782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1636097802782" />
     <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1634987590620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -529,22 +508,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1635049545927" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1635391118262">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1636687774311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1635391118262" />
-    <state x="178" y="57" key="new project wizard" timestamp="1635300028791">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1636687774311" />
+    <state x="178" y="57" key="new project wizard" timestamp="1636438326074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="57" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1635300028791" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1635240489124">
+    <state x="178" y="57" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1636438326074" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1636448034948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1635240489124" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1635140575678">
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1636448034948" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1636443174541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1635140575678" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1636443174541" />
     <state x="449" y="104" key="spring file set editor" timestamp="1634902844976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

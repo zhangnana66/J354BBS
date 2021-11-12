@@ -1,0 +1,7 @@
+cn\itrip\biz\BasheDao.class
+cn\itrip\controller\SearchController.class
+pojo\Page.class
+biz.class
+pojo\ItripHotelVO.class
+pojo\SearchHotelVO.class
+pojo\SearchHotCityVO.class

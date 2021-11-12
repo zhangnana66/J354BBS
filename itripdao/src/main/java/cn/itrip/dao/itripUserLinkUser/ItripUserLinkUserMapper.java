@@ -9,7 +9,7 @@ public interface ItripUserLinkUserMapper {
 
 
 	//查询常用联系人
-	public List<ItripUser> getUserList(ItripUser user)throws Exception;
+	public List<ItripUser> getUserList(ItripUserLinkUser user)throws Exception;
 	public ItripUserLinkUser getItripUserLinkUserById(@Param(value = "id") Long id)throws Exception;
 
 	public List<ItripUserLinkUser>	getItripUserLinkUserListByMap(Map<String, Object> param)throws Exception;

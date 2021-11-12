@@ -1,6 +1,6 @@
 package cn.itrip.pojo;
 import java.io.Serializable;
-
+import java.util.Date;
 /***
 *   订单支付完成后，系统需对该订单进行后续处理，如减库存等。处理完成后，删除此表中的订单记录
 */
