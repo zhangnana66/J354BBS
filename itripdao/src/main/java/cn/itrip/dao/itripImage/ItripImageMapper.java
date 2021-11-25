@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface ItripImageMapper {
+	public List<ItripImage> getRoomImg(@Param(value = "targetId")String id)throws Exception;
 
 	public ItripImage getItripImageById(@Param(value = "id") Long id)throws Exception;
 

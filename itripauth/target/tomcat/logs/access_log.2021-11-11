@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [11/Nov/2021:15:51:29 +0800] "POST /auth/api/dologin HTTP/1.0" 200 183 http-bio-8081-exec-1 989
-127.0.0.1 - - [11/Nov/2021:16:30:16 +0800] "POST /auth/api/retoken HTTP/1.0" 404 949 http-bio-8081-exec-2 6

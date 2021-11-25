@@ -6,6 +6,7 @@ import java.util.Map;
 
 public interface ItripLabelDicMapper {
 	public  List<ItripLabelDic> RecommendFacilities()throws Exception;
+	public  List<ItripLabelDic> hotelroombed()throws Exception;
 
 	public ItripLabelDic getItripLabelDicById(@Param(value = "id") Long id)throws Exception;
 

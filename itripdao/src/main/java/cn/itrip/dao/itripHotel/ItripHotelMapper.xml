@@ -3,6 +3,12 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.itrip.dao.itripHotel.ItripHotelMapper">
+    <select id="getHotelName" resultType="String">
+        SELECT hotelName FROM itrip_hotel WHERE id=#{hotelid}
+    </select>
+    <select id="getDetalis" resultType="cn.itrip.pojo.ItripHotel">
+        SELECT details,facilities FROM `itrip_hotel`WHERE id=#{id}
+    </select>
 
     <select id="getItripHotelById" resultType="cn.itrip.pojo.ItripHotel" >
         select

@@ -1,4 +1,7 @@
 com\text.class
+cn\itrip\biz\MailSenderInfoBiz$1.class
+cn\itrip\biz\MailSenderInfoBiz.class
 com\pojo\User.class
+cn\itrip\biz\CloopenBiz.class
 cn\itrip\biz\BizToken.class
 cn\itrip\controller\UserController.class
